@@ -12,7 +12,7 @@ What it checks: gaps between clips on a track (black flashes), clips shorter tha
 
 Everything is read-only. Ask the editing agent to "run a pre-flight check for reels" and it reports; nothing on your timeline changes.`,
   tags: ['qa', 'export', 'social'],
-  iconUrl: 'https://raw.githubusercontent.com/eli-made/corte-plugins-marketplace/main/assets/preflight-checker/icon.png',
+  iconUrl: 'https://raw.githubusercontent.com/eli-made/corte-plugins-marketplace/main/plugins/preflight-checker/assets/icon.png',
   permissions: ['read:timeline', 'notify'],
   contributions: {
     tools: [

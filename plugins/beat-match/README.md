@@ -37,7 +37,7 @@ always yields the same beats, which matters when the result becomes edits.
 - `src/beats.ts` — pure detection and frame math, unit-tested in `beats.test.ts`
 - `src/plugin.ts` — the sandbox bundle: wires handlers to the manifest-declared tools
 
-Manifest asset URLs (icon, screenshots, media) are served from this repo's `assets/` directory via raw.githubusercontent.com — generated in-house. Third-party authors can use any https URL.
+Manifest asset URLs (icon, screenshots, media) are served from the plugin's own `assets/` directory via raw.githubusercontent.com — generated in-house. Third-party authors can use any https URL.
 
 Build with `npm run build` (from this directory or via the repo root) —
 emits `dist/manifest.json` + `dist/plugin.js` and fails on any drift between

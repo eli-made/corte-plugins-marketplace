@@ -28,7 +28,7 @@ permissions.
 
 ## Assets
 
-Manifest asset URLs (icon, screenshots, media) are served from this repo's `assets/` directory via raw.githubusercontent.com — generated in-house. Third-party authors can use any https URL.
+Manifest asset URLs (icon, screenshots, media) are served from the plugin's own `assets/` directory via raw.githubusercontent.com — generated in-house. Third-party authors can use any https URL.
 reachable for the library contributions to resolve.
 
 Build with `npm run build` (from this directory or via the repo root) — emits

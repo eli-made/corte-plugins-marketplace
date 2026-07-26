@@ -14,9 +14,9 @@ It works with no setup: a built-in phrasebook covers the short calls to action t
 Point it at a LibreTranslate-compatible endpoint and it translates arbitrary sentences instead, falling back to the phrasebook if that service is unreachable. That is the only reason the plugin asks for network access, and the endpoint is a per-call argument — it is never stored.
 
 Lines it cannot translate are returned unchanged and reported as skipped, so you always know what still needs a human. Run it with dryRun first to review the proposed text before anything is written.`,
-  iconUrl: 'https://raw.githubusercontent.com/eli-made/corte-plugins-marketplace/main/assets/caption-translator/icon.png',
+  iconUrl: 'https://raw.githubusercontent.com/eli-made/corte-plugins-marketplace/main/plugins/caption-translator/assets/icon.png',
   tags: ['captions', 'localization', 'translation', 'social'],
-  screenshots: ['https://raw.githubusercontent.com/eli-made/corte-plugins-marketplace/main/assets/caption-translator/screenshot-1.png'],
+  screenshots: ['https://raw.githubusercontent.com/eli-made/corte-plugins-marketplace/main/plugins/caption-translator/assets/screenshot-1.png'],
   permissions: ['read:timeline', 'write:clips', 'notify', 'net:fetch'],
   contributions: {
     tools: [

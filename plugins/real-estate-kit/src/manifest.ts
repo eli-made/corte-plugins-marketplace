@@ -2,7 +2,7 @@ import { defineManifest } from '@corte/plugin-types'
 
 /** Every asset and thumbnail lives under this prefix; placeholders until the
  *  kit's media is uploaded (see README). */
-const ASSETS = 'https://raw.githubusercontent.com/eli-made/corte-plugins-marketplace/main/assets/real-estate-kit'
+const ASSETS = 'https://raw.githubusercontent.com/eli-made/corte-plugins-marketplace/main/plugins/real-estate-kit/assets'
 
 /** All three templates cut at 30 fps — the rate listing footage is shot and
  *  delivered at, so slot frame math stays whole. */

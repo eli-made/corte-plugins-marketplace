@@ -34,7 +34,7 @@ address line is upper-cased to read as the headline above the specs and price.
 - `src/plugin.ts` — the sandbox bundle: wires the handler to the manifest-declared tool
 
 Every media URL in the manifest (`iconUrl`, `screenshots`, clip `url` /
-Manifest asset URLs (icon, screenshots, media) are served from this repo's `assets/` directory via raw.githubusercontent.com — generated in-house. Third-party authors can use any https URL.
+Manifest asset URLs (icon, screenshots, media) are served from the plugin's own `assets/` directory via raw.githubusercontent.com — generated in-house. Third-party authors can use any https URL.
 
 Build with `npm run build` (from this directory or via the repo root) —
 emits `dist/manifest.json` + `dist/plugin.js` and fails on any drift between

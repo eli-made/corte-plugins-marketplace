@@ -13,10 +13,10 @@ export const manifest = defineManifest({
 Start a new vertical project from any of the eight templates, or — more usefully — keep the edit you have and ask the editing agent to drop a hook on the front of it. Each archetype is two or three overlays with their own timing, all landing inside the first 90 frames.
 
 The copy that ships is placeholder, and it is meant to be replaced. "3 things I wish I knew sooner" is the shape of the hook; your version of it is the actual hook. Every overlay is a normal text clip once inserted, so restyle, retime and move them like anything else on the timeline.`,
-  iconUrl: 'https://raw.githubusercontent.com/eli-made/corte-plugins-marketplace/main/assets/hook-factory/icon.png',
+  iconUrl: 'https://raw.githubusercontent.com/eli-made/corte-plugins-marketplace/main/plugins/hook-factory/assets/icon.png',
   screenshots: [
-    'https://raw.githubusercontent.com/eli-made/corte-plugins-marketplace/main/assets/hook-factory/archetypes.png',
-    'https://raw.githubusercontent.com/eli-made/corte-plugins-marketplace/main/assets/hook-factory/insert.png',
+    'https://raw.githubusercontent.com/eli-made/corte-plugins-marketplace/main/plugins/hook-factory/assets/archetypes.png',
+    'https://raw.githubusercontent.com/eli-made/corte-plugins-marketplace/main/plugins/hook-factory/assets/insert.png',
   ],
   tags: ['social', 'templates', 'hooks', 'shorts', 'agent'],
   permissions: ['write:clips', 'notify'],
@@ -30,7 +30,7 @@ The copy that ships is placeholder, and it is meant to be replaced. "3 things I 
       category: 'Openers & stings',
       ...HOOK_FORMAT,
       texts: hook.overlays,
-      thumbnailUrl: `https://raw.githubusercontent.com/eli-made/corte-plugins-marketplace/main/assets/hook-factory/${hook.slug}.png`,
+      thumbnailUrl: `https://raw.githubusercontent.com/eli-made/corte-plugins-marketplace/main/plugins/hook-factory/assets/${hook.slug}.png`,
     })),
     tools: [
       {

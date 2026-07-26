@@ -26,11 +26,11 @@ Every look has an Amount slider that mixes it back toward your source, plus one 
 Looks stack. Golden Hour under Halation gives you a warm flare; Faded Matte under Film Grain gives you a scanned print. They render in the preview and the export the same way, and export stays free and watermark-free as always.
 
 A note on grain: Corte binds no time uniform to plugin shaders, so Film Lab's grain is frame-stable rather than crawling. That is the right call for a print look and the wrong one for TV static — it is a deliberate limit, not an oversight.`,
-  iconUrl: 'https://raw.githubusercontent.com/eli-made/corte-plugins-marketplace/main/assets/film-lab/icon.png',
+  iconUrl: 'https://raw.githubusercontent.com/eli-made/corte-plugins-marketplace/main/plugins/film-lab/assets/icon.png',
   screenshots: [
-    'https://raw.githubusercontent.com/eli-made/corte-plugins-marketplace/main/assets/film-lab/shelf.png',
-    'https://raw.githubusercontent.com/eli-made/corte-plugins-marketplace/main/assets/film-lab/teal-orange.png',
-    'https://raw.githubusercontent.com/eli-made/corte-plugins-marketplace/main/assets/film-lab/halation.png',
+    'https://raw.githubusercontent.com/eli-made/corte-plugins-marketplace/main/plugins/film-lab/assets/shelf.png',
+    'https://raw.githubusercontent.com/eli-made/corte-plugins-marketplace/main/plugins/film-lab/assets/teal-orange.png',
+    'https://raw.githubusercontent.com/eli-made/corte-plugins-marketplace/main/plugins/film-lab/assets/halation.png',
   ],
   tags: ['color', 'grading', 'film', 'looks', 'shaders', 'retro'],
   contributions: {

@@ -14,9 +14,9 @@ Point it at a music asset and it analyses the audio the host decodes for it — 
 From there, "snap" moves each selected clip to the nearest beat, and "split" cuts each selected clip at every beat inside it, which turns one long take into a shot per beat ready to trim.
 
 Analysis is read-only and instant; nothing changes until you ask for snap or split, and both act only on the clips you have selected.`,
-  iconUrl: 'https://raw.githubusercontent.com/eli-made/corte-plugins-marketplace/main/assets/beat-match/icon.png',
+  iconUrl: 'https://raw.githubusercontent.com/eli-made/corte-plugins-marketplace/main/plugins/beat-match/assets/icon.png',
   tags: ['audio', 'music', 'editing', 'rhythm'],
-  screenshots: ['https://raw.githubusercontent.com/eli-made/corte-plugins-marketplace/main/assets/beat-match/screenshot-1.png'],
+  screenshots: ['https://raw.githubusercontent.com/eli-made/corte-plugins-marketplace/main/plugins/beat-match/assets/screenshot-1.png'],
   permissions: ['read:timeline', 'read:media', 'write:clips', 'notify'],
   contributions: {
     tools: [

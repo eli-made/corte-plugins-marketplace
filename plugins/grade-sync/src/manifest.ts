@@ -15,10 +15,10 @@ The moods are conservative on purpose. Each one is an exposure nudge, a small co
 Nothing is locked. Grade Sync only ever applies Corte's own built-in colour effects, so every value it sets shows up in the Adjust panel where you can push it further, keyframe it, or reset a single clip. Uninstalling the plugin leaves your grade exactly where it is.
 
 Ask the editing agent to "grade everything cinematic" for the whole timeline, or select a few clips first and say "match these to the warm look".`,
-  iconUrl: 'https://raw.githubusercontent.com/eli-made/corte-plugins-marketplace/main/assets/grade-sync/icon.png',
+  iconUrl: 'https://raw.githubusercontent.com/eli-made/corte-plugins-marketplace/main/plugins/grade-sync/assets/icon.png',
   screenshots: [
-    'https://raw.githubusercontent.com/eli-made/corte-plugins-marketplace/main/assets/grade-sync/moods.png',
-    'https://raw.githubusercontent.com/eli-made/corte-plugins-marketplace/main/assets/grade-sync/before-after.png',
+    'https://raw.githubusercontent.com/eli-made/corte-plugins-marketplace/main/plugins/grade-sync/assets/moods.png',
+    'https://raw.githubusercontent.com/eli-made/corte-plugins-marketplace/main/plugins/grade-sync/assets/before-after.png',
   ],
   tags: ['color', 'grading', 'agent', 'workflow'],
   permissions: ['read:timeline', 'write:effects', 'notify'],

@@ -35,7 +35,7 @@ arbitrary sentences; if that service is unreachable, misbehaving, or not
 - `src/translate.ts` — pure translation logic (phrasebook + endpoint), unit-tested in `translate.test.ts`
 - `src/plugin.ts` — the sandbox bundle: wires the handler to the manifest-declared tool
 
-Manifest asset URLs (icon, screenshots, media) are served from this repo's `assets/` directory via raw.githubusercontent.com — generated in-house. Third-party authors can use any https URL.
+Manifest asset URLs (icon, screenshots, media) are served from the plugin's own `assets/` directory via raw.githubusercontent.com — generated in-house. Third-party authors can use any https URL.
 
 Build with `npm run build` (from this directory or via the repo root) —
 emits `dist/manifest.json` + `dist/plugin.js` and fails on any drift between
