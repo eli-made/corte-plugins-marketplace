@@ -5,7 +5,7 @@ export const manifest = defineManifest({
   version: 1,
   id: 'so.corte.gradesync',
   name: 'Grade Sync',
-  pluginVersion: '1.0.1',
+  pluginVersion: '1.0.2',
   description:
     'Give every clip in a cut the same look in one instruction. Pick a mood — cinematic, warm, cool, vivid or matte — and Grade Sync applies a matched exposure, contrast, saturation, white balance and vignette to your selection or the whole timeline, using Corte’s built-in colour effects so everything stays editable afterwards.',
   about: `Footage from three cameras, a phone and a stock clip never matches. Grade Sync is the quick pass that makes a cut feel like one piece: choose a mood and every clip gets the same five-step grade.
@@ -15,10 +15,10 @@ The moods are conservative on purpose. Each one is an exposure nudge, a small co
 Nothing is locked. Grade Sync only ever applies Corte's own built-in colour effects, so every value it sets shows up in the Adjust panel where you can push it further, keyframe it, or reset a single clip. Uninstalling the plugin leaves your grade exactly where it is.
 
 Ask the editing agent to "grade everything cinematic" for the whole timeline, or select a few clips first and say "match these to the warm look".`,
-  iconUrl: 'https://assets.corte.so/plugins/grade-sync/icon.png',
+  iconUrl: 'https://raw.githubusercontent.com/eli-made/corte-plugins-marketplace/main/plugins/grade-sync/assets/icon.png',
   screenshots: [
-    'https://assets.corte.so/plugins/grade-sync/moods.png',
-    'https://assets.corte.so/plugins/grade-sync/before-after.png',
+    'https://raw.githubusercontent.com/eli-made/corte-plugins-marketplace/main/plugins/grade-sync/assets/moods.png',
+    'https://raw.githubusercontent.com/eli-made/corte-plugins-marketplace/main/plugins/grade-sync/assets/before-after.png',
   ],
   tags: ['color', 'grading', 'agent', 'workflow'],
   permissions: ['read:timeline', 'write:effects', 'notify'],

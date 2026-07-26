@@ -4,7 +4,7 @@ export const manifest = defineManifest({
   version: 1,
   id: 'so.corte.beatmatch',
   name: 'Beat Match',
-  pluginVersion: '1.0.1',
+  pluginVersion: '1.0.2',
   description:
     'Find the beats in a music track and cut to them: report the tempo, snap selected clips onto the nearest beat, or split them at every beat they contain.',
   about: `Cutting to music by ear means scrubbing for the downbeat, nudging a clip, and doing it again for every shot. Beat Match does the scrubbing.
@@ -14,9 +14,9 @@ Point it at a music asset and it analyses the audio the host decodes for it — 
 From there, "snap" moves each selected clip to the nearest beat, and "split" cuts each selected clip at every beat inside it, which turns one long take into a shot per beat ready to trim.
 
 Analysis is read-only and instant; nothing changes until you ask for snap or split, and both act only on the clips you have selected.`,
-  iconUrl: 'https://assets.corte.so/plugins/beat-match/icon.png',
+  iconUrl: 'https://raw.githubusercontent.com/eli-made/corte-plugins-marketplace/main/plugins/beat-match/assets/icon.png',
   tags: ['audio', 'music', 'editing', 'rhythm'],
-  screenshots: ['https://assets.corte.so/plugins/beat-match/screenshot-1.png'],
+  screenshots: ['https://raw.githubusercontent.com/eli-made/corte-plugins-marketplace/main/plugins/beat-match/assets/screenshot-1.png'],
   permissions: ['read:timeline', 'read:media', 'write:clips', 'notify'],
   contributions: {
     tools: [

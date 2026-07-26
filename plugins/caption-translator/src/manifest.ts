@@ -4,7 +4,7 @@ export const manifest = defineManifest({
   version: 1,
   id: 'so.corte.translate',
   name: 'Caption Translator',
-  pluginVersion: '1.0.1',
+  pluginVersion: '1.0.2',
   description:
     'Translate every text clip on the timeline into another language in one pass — offline for common call-to-action lines, or through your own LibreTranslate-compatible endpoint.',
   about: `Shipping the same cut to another market usually means retyping every caption. Caption Translator reads the text clips on your timeline, translates them, and writes them back in place — one pass, no re-layout.
@@ -14,9 +14,9 @@ It works with no setup: a built-in phrasebook covers the short calls to action t
 Point it at a LibreTranslate-compatible endpoint and it translates arbitrary sentences instead, falling back to the phrasebook if that service is unreachable. That is the only reason the plugin asks for network access, and the endpoint is a per-call argument — it is never stored.
 
 Lines it cannot translate are returned unchanged and reported as skipped, so you always know what still needs a human. Run it with dryRun first to review the proposed text before anything is written.`,
-  iconUrl: 'https://assets.corte.so/plugins/caption-translator/icon.png',
+  iconUrl: 'https://raw.githubusercontent.com/eli-made/corte-plugins-marketplace/main/plugins/caption-translator/assets/icon.png',
   tags: ['captions', 'localization', 'translation', 'social'],
-  screenshots: ['https://assets.corte.so/plugins/caption-translator/screenshot-1.png'],
+  screenshots: ['https://raw.githubusercontent.com/eli-made/corte-plugins-marketplace/main/plugins/caption-translator/assets/screenshot-1.png'],
   permissions: ['read:timeline', 'write:clips', 'notify', 'net:fetch'],
   contributions: {
     tools: [

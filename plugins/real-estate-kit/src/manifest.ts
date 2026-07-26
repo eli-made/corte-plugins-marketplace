@@ -2,7 +2,7 @@ import { defineManifest } from '@corte/plugin-types'
 
 /** Every asset and thumbnail lives under this prefix; placeholders until the
  *  kit's media is uploaded (see README). */
-const ASSETS = 'https://assets.corte.so/plugins/real-estate-kit'
+const ASSETS = 'https://raw.githubusercontent.com/eli-made/corte-plugins-marketplace/main/plugins/real-estate-kit/assets'
 
 /** All three templates cut at 30 fps — the rate listing footage is shot and
  *  delivered at, so slot frame math stays whole. */
@@ -13,7 +13,7 @@ export const manifest = defineManifest({
   version: 1,
   id: 'so.corte.rekit',
   name: 'Real Estate Kit',
-  pluginVersion: '1.0.1',
+  pluginVersion: '1.0.2',
   description:
     'Listing videos without the setup: three ready-made property templates (vertical reel, widescreen tour, square open house), eight stock clips they fill themselves, and a one-call listing lower third.',
   about: `Every listing gets the same video: the exterior, the walkthrough, the kitchen, the price. Real Estate Kit ships that edit so you only bring the property.
