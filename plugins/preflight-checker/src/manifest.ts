@@ -4,7 +4,7 @@ export const manifest = defineManifest({
   version: 1,
   id: 'so.corte.preflight',
   name: 'Pre-flight Checker',
-  pluginVersion: '1.0.0',
+  pluginVersion: '1.0.1',
   description: 'Audit your timeline before export: gaps, flash-frame clips, missing audio, and platform duration limits.',
   about: `Designed an edit and about to export? Pre-flight Checker reads your timeline and reports the things that quietly ruin a published video — before you spend an export on them.
 

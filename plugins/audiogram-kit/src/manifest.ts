@@ -19,7 +19,7 @@ export const manifest = defineManifest({
   version: 1,
   id: 'so.corte.audiogram',
   name: 'Audiogram Kit',
-  pluginVersion: '1.0.0',
+  pluginVersion: '1.0.1',
   description:
     'Turn a podcast clip into something watchable. Six audiogram layouts — three square for the feed, three vertical for Shorts and Reels — with pull-quote, episode-title and @handle text already positioned and timed, plus four royalty-free music beds the layouts pull in automatically.',
   about: `A podcast clip posted as a waveform gets scrolled past. Audiogram Kit is the six layouts that give it something to look at: a pull quote big enough to read at arm's length, the episode title where a lower third belongs, and your handle sitting quietly at the bottom of every one.

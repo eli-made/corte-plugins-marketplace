@@ -5,7 +5,7 @@ export const manifest = defineManifest({
   version: 1,
   id: 'so.corte.gradesync',
   name: 'Grade Sync',
-  pluginVersion: '1.0.0',
+  pluginVersion: '1.0.1',
   description:
     'Give every clip in a cut the same look in one instruction. Pick a mood — cinematic, warm, cool, vivid or matte — and Grade Sync applies a matched exposure, contrast, saturation, white balance and vignette to your selection or the whole timeline, using Corte’s built-in colour effects so everything stays editable afterwards.',
   about: `Footage from three cameras, a phone and a stock clip never matches. Grade Sync is the quick pass that makes a cut feel like one piece: choose a mood and every clip gets the same five-step grade.
