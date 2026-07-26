@@ -4,7 +4,7 @@ export const manifest = defineManifest({
   version: 1,
   id: 'so.corte.beatmatch',
   name: 'Beat Match',
-  pluginVersion: '1.0.0',
+  pluginVersion: '1.0.1',
   description:
     'Find the beats in a music track and cut to them: report the tempo, snap selected clips onto the nearest beat, or split them at every beat they contain.',
   about: `Cutting to music by ear means scrubbing for the downbeat, nudging a clip, and doing it again for every shot. Beat Match does the scrubbing.

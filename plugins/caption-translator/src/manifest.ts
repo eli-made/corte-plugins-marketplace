@@ -4,7 +4,7 @@ export const manifest = defineManifest({
   version: 1,
   id: 'so.corte.translate',
   name: 'Caption Translator',
-  pluginVersion: '1.0.0',
+  pluginVersion: '1.0.1',
   description:
     'Translate every text clip on the timeline into another language in one pass — offline for common call-to-action lines, or through your own LibreTranslate-compatible endpoint.',
   about: `Shipping the same cut to another market usually means retyping every caption. Caption Translator reads the text clips on your timeline, translates them, and writes them back in place — one pass, no re-layout.

@@ -16,7 +16,7 @@ export const manifest = defineManifest({
   version: 1,
   id: 'so.corte.filmlab',
   name: 'Film Lab',
-  pluginVersion: '1.0.0',
+  pluginVersion: '1.0.1',
   description:
     'Ten cinematic looks as real-time shader effects: teal & orange, bleach bypass, halation, VHS wear, day-for-night, film grain, cross-process, faded matte, cool noir and golden hour. Each has one to three sliders and blends back to your original, so the defaults are a starting point rather than a maximum.',
   about: `Film Lab is a grade shelf. Ten looks pulled from the way film actually behaves — silver retention, halation off the red layer, the midtone bell of emulsion grain — built as single-pass shaders that run live on the timeline.

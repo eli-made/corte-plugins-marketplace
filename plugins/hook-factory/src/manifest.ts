@@ -5,7 +5,7 @@ export const manifest = defineManifest({
   version: 1,
   id: 'so.corte.hooks',
   name: 'Hook Factory',
-  pluginVersion: '1.0.0',
+  pluginVersion: '1.0.1',
   description:
     'Eight opening hooks that stop the scroll — The Question, The Countdown, The Hot Take and five more — as vertical templates you can start from, or as a text stack the editing agent drops onto the cut you already have. Every hook lands inside the first three seconds. Swap the placeholder copy for your own and you are done.',
   about: `The first three seconds decide whether anything else in your video gets watched. Hook Factory is eight opening patterns that reliably buy those seconds, written out as timed text stacks rather than as advice.
