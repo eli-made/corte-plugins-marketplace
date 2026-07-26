@@ -14,7 +14,7 @@ making.
 | Plugin | What it adds | Ships code? | Permissions |
 | --- | --- | --- | --- |
 | [`preflight-checker`](plugins/preflight-checker) | Timeline audit before export (gaps, flash frames, silence, duration limits) | agent tool | `read:timeline`, `notify` |
-| [`film-lab`](plugins/film-lab) | 10 cinematic shader effects (teal & orange, halation, VHS, …) | no — pure data | none |
+| [`film-lab`](plugins/film-lab) | 13 cinematic shader effects (teal & orange, one-tap cinematic, duotone, …) | no — pure data | none |
 | [`grade-sync`](plugins/grade-sync) | One-click consistent grade across clips, 5 moods | agent tool | `read:timeline`, `write:effects`, `notify` |
 | [`hook-factory`](plugins/hook-factory) | 8 social-hook opener templates + insert-hook tool | agent tool + templates | `write:clips`, `notify` |
 | [`audiogram-kit`](plugins/audiogram-kit) | Podcast quote/audiogram templates + music beds | no — pure data | none |

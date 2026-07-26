@@ -1,16 +1,18 @@
 # Film Lab
 
-Ten cinematic looks as real-time shader effects — teal & orange, bleach bypass,
-halation glow, VHS wear, day-for-night, film grain, cross-process, faded matte,
-cool noir, golden hour. Each has an Amount slider that blends back to your
-source, so the defaults are a starting point rather than a maximum.
+Thirteen cinematic looks as real-time shader effects — teal & orange, bleach
+bypass, halation glow, VHS wear, day-for-night, film grain, cross-process,
+faded matte, cool noir, golden hour, duotone, vibrance and a one-tap cinematic
+(grade, vignette and letterbox in a single pass). Each has an Amount slider
+that blends back to your source, so the defaults are a starting point rather
+than a maximum.
 
 **Try it:** drop **Golden Hour** on a clip, then stack **Halation Glow** over it
 and raise Threshold until only the practicals flare.
 
 | | |
 | --- | --- |
-| Contributions | 10 shader effects (`so.corte.filmlab.*`) |
+| Contributions | 13 shader effects (`so.corte.filmlab.*`) |
 | Permissions | None — data-only, no code runs |
 | Price | Free |
 
