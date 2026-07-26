@@ -1,0 +1,45 @@
+# Publish to the Corte marketplace on every push to main.
+#
+# The publisher is version-diffing and idempotent (scripts/publish-plugins.mjs):
+# it rebuilds, compares each plugin's pluginVersion against the marketplace,
+# and publishes only what's new or ahead — so merging a PR that bumps one
+# plugin's version releases exactly that plugin, and merges that touch no
+# version publish nothing.
+#
+# Secret handling in a public repo:
+#   - CORTE_API_KEY lives in the repo's Actions secrets (Settings → Secrets and
+#     variables → Actions): encrypted at rest, masked in logs.
+#   - This workflow runs on `push` to main only — never on pull_request — so
+#     workflows from fork PRs can never see the secret.
+#   - The `production` environment lets you add required reviewers as a second
+#     gate before any publish runs (Settings → Environments).
+name: Publish
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'plugins/**'
+      - 'packages/**'
+      - 'scripts/**'
+
+concurrency:
+  group: marketplace-publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment: production
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm test
+      - name: Publish changed plugins
+        run: npm run publish
+        env:
+          CORTE_API_KEY: ${{ secrets.CORTE_API_KEY }}

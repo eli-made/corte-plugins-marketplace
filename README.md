@@ -83,6 +83,16 @@ Manual alternative: **Settings → Developer → Plugins → Publish a plugin…
 paste `dist/manifest.json`, attach `dist/plugin.js`. Each publish is a new
 immutable version.
 
+### CI publishing
+
+Merges to `main` publish automatically via
+[`.github/workflows/publish.yml`](.github/workflows/publish.yml): the same
+version-diffing publisher runs with `CORTE_API_KEY` from the repo's Actions
+secrets — encrypted, masked in logs, and never exposed to workflows from fork
+PRs (which only run the secret-free [CI workflow](.github/workflows/ci.yml)).
+Release flow: bump a plugin's `pluginVersion`, open a PR, merge — CI publishes
+exactly the bumped plugins and skips the rest.
+
 See [docs/authoring.md](docs/authoring.md) for the full walk-through, and the
 [plugin guide](https://help.corte.so/developers/plugins) for platform docs.
 
