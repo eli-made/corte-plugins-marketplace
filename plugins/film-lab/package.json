@@ -12,6 +12,6 @@
     "typescript": "^5.7.2"
   },
   "corte": {
-    "priceCredits": 300
+    "priceCredits": 0
   }
 }

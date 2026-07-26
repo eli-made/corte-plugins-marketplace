@@ -11,7 +11,7 @@ themselves with, and a one-call listing lower third.
 | --- | --- |
 | Contributions | 3 templates, 8 library clips, 1 agent tool (`so.corte.rekit.lower_third`) |
 | Permissions | `read:timeline`, `write:clips`, `notify` |
-| Price | 500 credits |
+| Price | Free |
 
 ## How the templates fill themselves
 

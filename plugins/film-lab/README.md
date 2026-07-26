@@ -12,7 +12,7 @@ and raise Threshold until only the practicals flare.
 | --- | --- |
 | Contributions | 10 shader effects (`so.corte.filmlab.*`) |
 | Permissions | None — data-only, no code runs |
-| Price | Paid, ~300 credits |
+| Price | Free |
 
 ## Structure
 
