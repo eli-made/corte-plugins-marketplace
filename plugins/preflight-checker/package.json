@@ -1,0 +1,14 @@
+{
+  "name": "@corte-plugins/preflight-checker",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node ../../scripts/build-plugin.mjs",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@corte/plugin-types": "*",
+    "typescript": "^5.7.2"
+  }
+}
