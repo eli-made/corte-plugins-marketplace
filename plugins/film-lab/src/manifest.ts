@@ -16,7 +16,7 @@ export const manifest = defineManifest({
   version: 1,
   id: 'so.corte.filmlab',
   name: 'Film Lab',
-  pluginVersion: '1.0.2',
+  pluginVersion: '1.0.3',
   description:
     'Ten cinematic looks as real-time shader effects: teal & orange, bleach bypass, halation, VHS wear, day-for-night, film grain, cross-process, faded matte, cool noir and golden hour. Each has one to three sliders and blends back to your original, so the defaults are a starting point rather than a maximum.',
   about: `Film Lab is a grade shelf. Ten looks pulled from the way film actually behaves — silver retention, halation off the red layer, the midtone bell of emulsion grain — built as single-pass shaders that run live on the timeline.
@@ -28,6 +28,11 @@ Looks stack. Golden Hour under Halation gives you a warm flare; Faded Matte unde
 A note on grain: Corte binds no time uniform to plugin shaders, so Film Lab's grain is frame-stable rather than crawling. That is the right call for a print look and the wrong one for TV static — it is a deliberate limit, not an oversight.`,
   iconUrl: 'https://raw.githubusercontent.com/eli-made/corte-plugins-marketplace/main/plugins/film-lab/assets/icon.png',
   screenshots: [
+    // before/after splits rendered with these exact shaders at manifest defaults
+    'https://raw.githubusercontent.com/eli-made/corte-plugins-marketplace/main/plugins/film-lab/assets/demo/teal-orange.jpg',
+    'https://raw.githubusercontent.com/eli-made/corte-plugins-marketplace/main/plugins/film-lab/assets/demo/day-for-night.jpg',
+    'https://raw.githubusercontent.com/eli-made/corte-plugins-marketplace/main/plugins/film-lab/assets/demo/golden-hour.jpg',
+    'https://raw.githubusercontent.com/eli-made/corte-plugins-marketplace/main/plugins/film-lab/assets/demo/cool-noir.jpg',
     'https://raw.githubusercontent.com/eli-made/corte-plugins-marketplace/main/plugins/film-lab/assets/shelf.png',
     'https://raw.githubusercontent.com/eli-made/corte-plugins-marketplace/main/plugins/film-lab/assets/teal-orange.png',
     'https://raw.githubusercontent.com/eli-made/corte-plugins-marketplace/main/plugins/film-lab/assets/halation.png',
