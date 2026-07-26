@@ -10,8 +10,8 @@ import { manifest } from './manifest.ts'
 const effects = manifest.contributions.effects ?? []
 
 describe('Film Lab shaders', () => {
-  it('ships ten looks', () => {
-    expect(effects).toHaveLength(10)
+  it('ships thirteen looks', () => {
+    expect(effects).toHaveLength(13)
   })
 
   it.each(effects.map((e) => [e.type, e] as const))('%s honours the host shader contract', (_type, effect) => {

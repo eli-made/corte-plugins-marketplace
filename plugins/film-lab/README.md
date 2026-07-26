@@ -1,16 +1,18 @@
 # Film Lab
 
-Ten cinematic looks as real-time shader effects — teal & orange, bleach bypass,
-halation glow, VHS wear, day-for-night, film grain, cross-process, faded matte,
-cool noir, golden hour. Each has an Amount slider that blends back to your
-source, so the defaults are a starting point rather than a maximum.
+Thirteen cinematic looks as real-time shader effects — teal & orange, bleach
+bypass, halation glow, VHS wear, day-for-night, film grain, cross-process,
+faded matte, cool noir, golden hour, duotone, vibrance and a one-tap cinematic
+(grade, vignette and letterbox in a single pass). Each has an Amount slider
+that blends back to your source, so the defaults are a starting point rather
+than a maximum.
 
 **Try it:** drop **Golden Hour** on a clip, then stack **Halation Glow** over it
 and raise Threshold until only the practicals flare.
 
 | | |
 | --- | --- |
-| Contributions | 10 shader effects (`so.corte.filmlab.*`) |
+| Contributions | 13 shader effects (`so.corte.filmlab.*`) |
 | Permissions | None — data-only, no code runs |
 | Price | Free |
 
@@ -34,6 +36,11 @@ percentage of the frame and why the grain is frame-stable rather than crawling.
 
 ## Assets
 Manifest asset URLs (icon, screenshots, media) are served from the plugin's own `assets/` directory via raw.githubusercontent.com — generated in-house. Third-party authors can use any https URL.
+
+`assets/demo/` holds one before/after split per look. They are honest demos:
+each right half was rendered by that look's actual GLSL from `src/shaders.ts`
+at the manifest's default parameter values (WebGL2, same host contract as the
+editor), not by an approximation in an image tool.
 
 Build with `npm run build` (from this directory or via the repo root) — emits
 `dist/manifest.json` and fails if any contribution id is not namespaced under
