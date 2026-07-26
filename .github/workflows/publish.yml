@@ -22,6 +22,10 @@ on:
       - 'plugins/**'
       - 'packages/**'
       - 'scripts/**'
+  # Manual runs from the Actions tab — for the initial publish of the whole
+  # catalog, or re-running after fixing repo secrets. The publisher is
+  # version-diffing, so a manual run is always safe.
+  workflow_dispatch:
 
 concurrency:
   group: marketplace-publish
