@@ -36,9 +36,7 @@ timeline; text overlays are skipped, since white-balancing a caption only
 discolours it.
 
 ## Assets
-
-`iconUrl` and `screenshots` point at `https://assets.corte.so/plugins/grade-sync/`
-as placeholders. Plugin authors host their own assets; any https URL works.
+Manifest asset URLs (icon, screenshots, media) are served from this repo's `assets/` directory via raw.githubusercontent.com — generated in-house. Third-party authors can use any https URL.
 
 Build with `npm run build` (from this directory or via the repo root) — emits
 `dist/manifest.json` + `dist/plugin.js` and fails on any drift between them.

@@ -31,9 +31,7 @@ so a later hand-edit to either side is caught.
 
 ## Assets
 
-`iconUrl`, `screenshots` and template `thumbnailUrl`s point at
-`https://assets.corte.so/plugins/hook-factory/` as placeholders. Plugin authors
-host their own assets; any https URL works.
+Manifest asset URLs (icon, screenshots, media) are served from this repo's `assets/` directory via raw.githubusercontent.com — generated in-house. Third-party authors can use any https URL.
 
 Build with `npm run build` (from this directory or via the repo root) — emits
 `dist/manifest.json` + `dist/plugin.js` and fails on any drift between them.

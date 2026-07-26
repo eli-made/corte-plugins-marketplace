@@ -4,7 +4,7 @@ export const manifest = defineManifest({
   version: 1,
   id: 'so.corte.preflight',
   name: 'Pre-flight Checker',
-  pluginVersion: '1.0.1',
+  pluginVersion: '1.0.2',
   description: 'Audit your timeline before export: gaps, flash-frame clips, missing audio, and platform duration limits.',
   about: `Designed an edit and about to export? Pre-flight Checker reads your timeline and reports the things that quietly ruin a published video — before you spend an export on them.
 
@@ -12,6 +12,7 @@ What it checks: gaps between clips on a track (black flashes), clips shorter tha
 
 Everything is read-only. Ask the editing agent to "run a pre-flight check for reels" and it reports; nothing on your timeline changes.`,
   tags: ['qa', 'export', 'social'],
+  iconUrl: 'https://raw.githubusercontent.com/eli-made/corte-plugins-marketplace/main/assets/preflight-checker/icon.png',
   permissions: ['read:timeline', 'notify'],
   contributions: {
     tools: [

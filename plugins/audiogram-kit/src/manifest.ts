@@ -19,7 +19,7 @@ export const manifest = defineManifest({
   version: 1,
   id: 'so.corte.audiogram',
   name: 'Audiogram Kit',
-  pluginVersion: '1.0.1',
+  pluginVersion: '1.0.2',
   description:
     'Turn a podcast clip into something watchable. Six audiogram layouts — three square for the feed, three vertical for Shorts and Reels — with pull-quote, episode-title and @handle text already positioned and timed, plus four royalty-free music beds the layouts pull in automatically.',
   about: `A podcast clip posted as a waveform gets scrolled past. Audiogram Kit is the six layouts that give it something to look at: a pull quote big enough to read at arm's length, the episode title where a lower third belongs, and your handle sitting quietly at the bottom of every one.
@@ -29,10 +29,10 @@ Three are square for the main feed and three are vertical for Shorts and Reels, 
 Four music beds ship alongside — warm keys, soft pulse, low strings, clean lo-fi — each a minute long and mixed to sit under speech rather than compete with it. The templates request a bed by tag instead of by name, so swapping one for another is a single change.
 
 Drop your audio in, replace the placeholder copy, and export. Editing and export are free and never watermarked.`,
-  iconUrl: 'https://assets.corte.so/plugins/audiogram-kit/icon.png',
+  iconUrl: 'https://raw.githubusercontent.com/eli-made/corte-plugins-marketplace/main/assets/audiogram-kit/icon.png',
   screenshots: [
-    'https://assets.corte.so/plugins/audiogram-kit/square-layouts.png',
-    'https://assets.corte.so/plugins/audiogram-kit/vertical-layouts.png',
+    'https://raw.githubusercontent.com/eli-made/corte-plugins-marketplace/main/assets/audiogram-kit/square-layouts.png',
+    'https://raw.githubusercontent.com/eli-made/corte-plugins-marketplace/main/assets/audiogram-kit/vertical-layouts.png',
   ],
   tags: ['podcast', 'audiogram', 'templates', 'social', 'audio'],
   contributions: {
@@ -50,7 +50,7 @@ Drop your audio in, replace the placeholder copy, and export. Editing and export
           { content: '@yourshow', startFrame: 0, endFrame: DURATION_FRAMES },
         ],
         slots: [BED_SLOT],
-        thumbnailUrl: 'https://assets.corte.so/plugins/audiogram-kit/square-pull-quote.png',
+        thumbnailUrl: 'https://raw.githubusercontent.com/eli-made/corte-plugins-marketplace/main/assets/audiogram-kit/square-pull-quote.png',
       },
       {
         id: 'so.corte.audiogram.square-episode-card',
@@ -66,7 +66,7 @@ Drop your audio in, replace the placeholder copy, and export. Editing and export
           { content: '@yourshow', startFrame: 0, endFrame: DURATION_FRAMES },
         ],
         slots: [BED_SLOT],
-        thumbnailUrl: 'https://assets.corte.so/plugins/audiogram-kit/square-episode-card.png',
+        thumbnailUrl: 'https://raw.githubusercontent.com/eli-made/corte-plugins-marketplace/main/assets/audiogram-kit/square-episode-card.png',
       },
       {
         id: 'so.corte.audiogram.square-guest-intro',
@@ -82,7 +82,7 @@ Drop your audio in, replace the placeholder copy, and export. Editing and export
           { content: '@yourshow · Ep. 42', startFrame: 0, endFrame: DURATION_FRAMES },
         ],
         slots: [BED_SLOT],
-        thumbnailUrl: 'https://assets.corte.so/plugins/audiogram-kit/square-guest-intro.png',
+        thumbnailUrl: 'https://raw.githubusercontent.com/eli-made/corte-plugins-marketplace/main/assets/audiogram-kit/square-guest-intro.png',
       },
       {
         id: 'so.corte.audiogram.vertical-pull-quote',
@@ -97,7 +97,7 @@ Drop your audio in, replace the placeholder copy, and export. Editing and export
           { content: '@yourshow', startFrame: 0, endFrame: DURATION_FRAMES },
         ],
         slots: [BED_SLOT],
-        thumbnailUrl: 'https://assets.corte.so/plugins/audiogram-kit/vertical-pull-quote.png',
+        thumbnailUrl: 'https://raw.githubusercontent.com/eli-made/corte-plugins-marketplace/main/assets/audiogram-kit/vertical-pull-quote.png',
       },
       {
         id: 'so.corte.audiogram.vertical-episode-card',
@@ -113,7 +113,7 @@ Drop your audio in, replace the placeholder copy, and export. Editing and export
           { content: '@yourshow', startFrame: 0, endFrame: DURATION_FRAMES },
         ],
         slots: [BED_SLOT],
-        thumbnailUrl: 'https://assets.corte.so/plugins/audiogram-kit/vertical-episode-card.png',
+        thumbnailUrl: 'https://raw.githubusercontent.com/eli-made/corte-plugins-marketplace/main/assets/audiogram-kit/vertical-episode-card.png',
       },
       {
         id: 'so.corte.audiogram.vertical-clip-teaser',
@@ -129,7 +129,7 @@ Drop your audio in, replace the placeholder copy, and export. Editing and export
           { content: '@yourshow', startFrame: 0, endFrame: DURATION_FRAMES },
         ],
         slots: [BED_SLOT],
-        thumbnailUrl: 'https://assets.corte.so/plugins/audiogram-kit/vertical-clip-teaser.png',
+        thumbnailUrl: 'https://raw.githubusercontent.com/eli-made/corte-plugins-marketplace/main/assets/audiogram-kit/vertical-clip-teaser.png',
       },
     ],
     library: [
@@ -137,7 +137,7 @@ Drop your audio in, replace the placeholder copy, and export. Editing and export
         id: 'so.corte.audiogram.bed-warm-keys',
         kind: 'audio',
         name: 'Warm Keys',
-        url: 'https://assets.corte.so/plugins/audiogram-kit/beds/warm-keys.mp3',
+        url: 'https://raw.githubusercontent.com/eli-made/corte-plugins-marketplace/main/assets/audiogram-kit/beds/warm-keys.mp3',
         tags: ['music', 'bed', 'podcast'],
         durationSeconds: 60,
       },
@@ -145,7 +145,7 @@ Drop your audio in, replace the placeholder copy, and export. Editing and export
         id: 'so.corte.audiogram.bed-soft-pulse',
         kind: 'audio',
         name: 'Soft Pulse',
-        url: 'https://assets.corte.so/plugins/audiogram-kit/beds/soft-pulse.mp3',
+        url: 'https://raw.githubusercontent.com/eli-made/corte-plugins-marketplace/main/assets/audiogram-kit/beds/soft-pulse.mp3',
         tags: ['music', 'bed', 'podcast'],
         durationSeconds: 60,
       },
@@ -153,7 +153,7 @@ Drop your audio in, replace the placeholder copy, and export. Editing and export
         id: 'so.corte.audiogram.bed-low-strings',
         kind: 'audio',
         name: 'Low Strings',
-        url: 'https://assets.corte.so/plugins/audiogram-kit/beds/low-strings.mp3',
+        url: 'https://raw.githubusercontent.com/eli-made/corte-plugins-marketplace/main/assets/audiogram-kit/beds/low-strings.mp3',
         tags: ['music', 'bed', 'podcast'],
         durationSeconds: 60,
       },
@@ -161,7 +161,7 @@ Drop your audio in, replace the placeholder copy, and export. Editing and export
         id: 'so.corte.audiogram.bed-clean-lofi',
         kind: 'audio',
         name: 'Clean Lo-Fi',
-        url: 'https://assets.corte.so/plugins/audiogram-kit/beds/clean-lofi.mp3',
+        url: 'https://raw.githubusercontent.com/eli-made/corte-plugins-marketplace/main/assets/audiogram-kit/beds/clean-lofi.mp3',
         tags: ['music', 'bed', 'podcast'],
         durationSeconds: 60,
       },

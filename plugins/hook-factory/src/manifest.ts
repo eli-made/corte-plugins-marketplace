@@ -5,7 +5,7 @@ export const manifest = defineManifest({
   version: 1,
   id: 'so.corte.hooks',
   name: 'Hook Factory',
-  pluginVersion: '1.0.1',
+  pluginVersion: '1.0.2',
   description:
     'Eight opening hooks that stop the scroll — The Question, The Countdown, The Hot Take and five more — as vertical templates you can start from, or as a text stack the editing agent drops onto the cut you already have. Every hook lands inside the first three seconds. Swap the placeholder copy for your own and you are done.',
   about: `The first three seconds decide whether anything else in your video gets watched. Hook Factory is eight opening patterns that reliably buy those seconds, written out as timed text stacks rather than as advice.
@@ -13,10 +13,10 @@ export const manifest = defineManifest({
 Start a new vertical project from any of the eight templates, or — more usefully — keep the edit you have and ask the editing agent to drop a hook on the front of it. Each archetype is two or three overlays with their own timing, all landing inside the first 90 frames.
 
 The copy that ships is placeholder, and it is meant to be replaced. "3 things I wish I knew sooner" is the shape of the hook; your version of it is the actual hook. Every overlay is a normal text clip once inserted, so restyle, retime and move them like anything else on the timeline.`,
-  iconUrl: 'https://assets.corte.so/plugins/hook-factory/icon.png',
+  iconUrl: 'https://raw.githubusercontent.com/eli-made/corte-plugins-marketplace/main/assets/hook-factory/icon.png',
   screenshots: [
-    'https://assets.corte.so/plugins/hook-factory/archetypes.png',
-    'https://assets.corte.so/plugins/hook-factory/insert.png',
+    'https://raw.githubusercontent.com/eli-made/corte-plugins-marketplace/main/assets/hook-factory/archetypes.png',
+    'https://raw.githubusercontent.com/eli-made/corte-plugins-marketplace/main/assets/hook-factory/insert.png',
   ],
   tags: ['social', 'templates', 'hooks', 'shorts', 'agent'],
   permissions: ['write:clips', 'notify'],
@@ -30,7 +30,7 @@ The copy that ships is placeholder, and it is meant to be replaced. "3 things I 
       category: 'Openers & stings',
       ...HOOK_FORMAT,
       texts: hook.overlays,
-      thumbnailUrl: `https://assets.corte.so/plugins/hook-factory/${hook.slug}.png`,
+      thumbnailUrl: `https://raw.githubusercontent.com/eli-made/corte-plugins-marketplace/main/assets/hook-factory/${hook.slug}.png`,
     })),
     tools: [
       {

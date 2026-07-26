@@ -33,9 +33,7 @@ is no time or resolution uniform, which is why radii here are expressed as a
 percentage of the frame and why the grain is frame-stable rather than crawling.
 
 ## Assets
-
-`iconUrl` and `screenshots` point at `https://assets.corte.so/plugins/film-lab/`
-as placeholders. Plugin authors host their own assets; any https URL works.
+Manifest asset URLs (icon, screenshots, media) are served from this repo's `assets/` directory via raw.githubusercontent.com — generated in-house. Third-party authors can use any https URL.
 
 Build with `npm run build` (from this directory or via the repo root) — emits
 `dist/manifest.json` and fails if any contribution id is not namespaced under

@@ -34,9 +34,7 @@ address line is upper-cased to read as the headline above the specs and price.
 - `src/plugin.ts` — the sandbox bundle: wires the handler to the manifest-declared tool
 
 Every media URL in the manifest (`iconUrl`, `screenshots`, clip `url` /
-`thumbnailUrl`, template thumbnails) is a placeholder under
-`https://assets.corte.so/plugins/real-estate-kit/` — upload the kit's media and
-replace them before publishing.
+Manifest asset URLs (icon, screenshots, media) are served from this repo's `assets/` directory via raw.githubusercontent.com — generated in-house. Third-party authors can use any https URL.
 
 Build with `npm run build` (from this directory or via the repo root) —
 emits `dist/manifest.json` + `dist/plugin.js` and fails on any drift between

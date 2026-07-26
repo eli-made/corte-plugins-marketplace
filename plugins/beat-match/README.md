@@ -37,9 +37,7 @@ always yields the same beats, which matters when the result becomes edits.
 - `src/beats.ts` — pure detection and frame math, unit-tested in `beats.test.ts`
 - `src/plugin.ts` — the sandbox bundle: wires handlers to the manifest-declared tools
 
-Asset URLs in the manifest (`iconUrl`, `screenshots`) are placeholders under
-`https://assets.corte.so/plugins/beat-match/` — replace them with real uploads
-before publishing.
+Manifest asset URLs (icon, screenshots, media) are served from this repo's `assets/` directory via raw.githubusercontent.com — generated in-house. Third-party authors can use any https URL.
 
 Build with `npm run build` (from this directory or via the repo root) —
 emits `dist/manifest.json` + `dist/plugin.js` and fails on any drift between
