@@ -49,6 +49,7 @@ plugins/<name>/
 │   ├── plugin.ts       # the sandbox bundle (only if the plugin ships tools)
 │   ├── <logic>.ts      # pure logic, kept testable
 │   └── <logic>.test.ts
+├── assets/             # icon, screenshots, media — served via raw.githubusercontent
 └── README.md
 ```
 
