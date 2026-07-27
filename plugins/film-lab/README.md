@@ -37,10 +37,11 @@ percentage of the frame and why the grain is frame-stable rather than crawling.
 ## Assets
 Manifest asset URLs (icon, screenshots, media) are served from the plugin's own `assets/` directory via raw.githubusercontent.com — generated in-house. Third-party authors can use any https URL.
 
-`assets/demo/` holds one before/after split per look. They are honest demos:
-each right half was rendered by that look's actual GLSL from `src/shaders.ts`
-at the manifest's default parameter values (WebGL2, same host contract as the
-editor), not by an approximation in an image tool.
+`assets/demo/` holds one full-frame render per look plus the untouched source
+frame (`original.jpg`, listed first so every look reads against it). They are
+honest demos: each was rendered by that look's actual GLSL from
+`src/shaders.ts` at the manifest's default parameter values (WebGL2, same host
+contract as the editor), not by an approximation in an image tool.
 
 Build with `npm run build` (from this directory or via the repo root) — emits
 `dist/manifest.json` and fails if any contribution id is not namespaced under
