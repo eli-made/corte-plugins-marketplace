@@ -19,7 +19,7 @@ export const manifest = defineManifest({
   version: 1,
   id: 'so.corte.filmlab',
   name: 'Film Lab',
-  pluginVersion: '1.1.0',
+  pluginVersion: '1.1.1',
   description:
     'Thirteen cinematic looks as real-time shader effects: teal & orange, bleach bypass, halation glow, VHS wear, day-for-night, film grain, cross-process, faded matte, cool noir, golden hour, duotone, vibrance and a one-tap cinematic. Each has one to three sliders and blends back to your original, so the defaults are a starting point rather than a maximum.',
   about: `Film Lab is a grade shelf. Thirteen looks pulled from the way film actually behaves — silver retention, halation off the red layer, the midtone bell of emulsion grain — built as single-pass shaders that run live on the timeline.
@@ -31,15 +31,22 @@ Looks stack. Golden Hour under Halation gives you a warm flare; Faded Matte unde
 A note on grain: Corte binds no time uniform to plugin shaders, so Film Lab's grain is frame-stable rather than crawling. That is the right call for a print look and the wrong one for TV static — it is a deliberate limit, not an oversight.`,
   iconUrl: 'https://raw.githubusercontent.com/eli-made/corte-plugins-marketplace/main/plugins/film-lab/assets/icon.png',
   screenshots: [
-    // before/after splits rendered with these exact shaders at manifest defaults
+    // Full-frame renders from these exact shaders at manifest defaults; the
+    // first image is the untouched source so every look reads against it.
+    'https://raw.githubusercontent.com/eli-made/corte-plugins-marketplace/main/plugins/film-lab/assets/demo/original.jpg',
     'https://raw.githubusercontent.com/eli-made/corte-plugins-marketplace/main/plugins/film-lab/assets/demo/cinematic.jpg',
     'https://raw.githubusercontent.com/eli-made/corte-plugins-marketplace/main/plugins/film-lab/assets/demo/teal-orange.jpg',
     'https://raw.githubusercontent.com/eli-made/corte-plugins-marketplace/main/plugins/film-lab/assets/demo/duotone.jpg',
-    'https://raw.githubusercontent.com/eli-made/corte-plugins-marketplace/main/plugins/film-lab/assets/demo/day-for-night.jpg',
     'https://raw.githubusercontent.com/eli-made/corte-plugins-marketplace/main/plugins/film-lab/assets/demo/golden-hour.jpg',
+    'https://raw.githubusercontent.com/eli-made/corte-plugins-marketplace/main/plugins/film-lab/assets/demo/day-for-night.jpg',
     'https://raw.githubusercontent.com/eli-made/corte-plugins-marketplace/main/plugins/film-lab/assets/demo/cool-noir.jpg',
-    'https://raw.githubusercontent.com/eli-made/corte-plugins-marketplace/main/plugins/film-lab/assets/shelf.png',
-    'https://raw.githubusercontent.com/eli-made/corte-plugins-marketplace/main/plugins/film-lab/assets/teal-orange.png',
+    'https://raw.githubusercontent.com/eli-made/corte-plugins-marketplace/main/plugins/film-lab/assets/demo/vibrance.jpg',
+    'https://raw.githubusercontent.com/eli-made/corte-plugins-marketplace/main/plugins/film-lab/assets/demo/cross-process.jpg',
+    'https://raw.githubusercontent.com/eli-made/corte-plugins-marketplace/main/plugins/film-lab/assets/demo/bleach-bypass.jpg',
+    'https://raw.githubusercontent.com/eli-made/corte-plugins-marketplace/main/plugins/film-lab/assets/demo/faded-matte.jpg',
+    'https://raw.githubusercontent.com/eli-made/corte-plugins-marketplace/main/plugins/film-lab/assets/demo/halation.jpg',
+    'https://raw.githubusercontent.com/eli-made/corte-plugins-marketplace/main/plugins/film-lab/assets/demo/film-grain.jpg',
+    'https://raw.githubusercontent.com/eli-made/corte-plugins-marketplace/main/plugins/film-lab/assets/demo/vhs-wear.jpg',
   ],
   tags: ['color', 'grading', 'film', 'looks', 'shaders', 'retro'],
   contributions: {
